@@ -1,7 +1,7 @@
 # ML_Fluid_heat
-My journey in mastering AI/ML applied to flows(isothermal , non-isothermal)
+My journey in mastering AI/ML applied to numerical experiments/simulations
 
-I took break from my learning path of using AI/ML tools in fluid dynamics , heat transfer.
+I took break from my learning path of using AI/ML tools in fluid dynamics
 Restarting again in my PhD journey.
 
 From where does data come ?
