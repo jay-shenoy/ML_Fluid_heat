@@ -24,5 +24,6 @@ We start always with 1D which can be easily understood by anyone.
 First do supervised learning , later do PINNS for diffusion equation and our data comes from LBM.
 These problems are called forward problems , we made big assumption that we know BC , IC. BTW , who gives us that ?
 
-Most of problems in world are inverse problems(could be experimental data), in case of diffusion equation could be diffusivity , bc , ic.
+Most of problems in world are inverse problems(could be experimental data), in case of diffusion equation could be find diffusivity , find bc , find ic.
 Think of like input , output. We do not know input completely but know output.
+These are incomplete problems
