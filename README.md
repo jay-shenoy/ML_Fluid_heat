@@ -20,4 +20,9 @@ Later do inverse problems with NN (since NN are inherently inverse problems sinc
 The term would be error minimisation
 
 We start always with 1D which can be easily understood by anyone.
-First do supervised learning , later do PINNS for diffusion equation and our data comes from LBM
+
+First do supervised learning , later do PINNS for diffusion equation and our data comes from LBM.
+These problems are called forward problems , we made big assumption that we know BC , IC. BTW , who gives us that ?
+
+Most of problems in world are inverse problems(could be experimental data), in case of diffusion equation could be diffusivity , bc , ic.
+Think of like input , output. We do not know input completely but know output.
