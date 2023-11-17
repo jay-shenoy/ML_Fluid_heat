@@ -5,11 +5,12 @@ I took break from my learning path of using AI/ML tools in fluid dynamics
 Restarting again in my PhD journey.
 
 From where does data come ?
-Simulation/Numerical experiments could be LBM , traditional CFD , SPH , FEM etc
+If Simulation/Numerical experiments could be LBM , traditional CFD , SPH , FEM  it is called PINNS
+If experiments gives you data EINNS.
 
 Simulation takes lot of time(computational time) so run on coarse mesh(less # of grid points) which less computationally expensive , later feed that data to train the neural network which is supervised learning for you.
 Obviously you need lot of data to train the network later you can use test data to see if prediction by NN matches well.
-In summary is approximating function/interpolation/curve fitting.
+In summary it is approximating function/interpolation/curve fitting.
 
 Neural network avoids meshing which is cumbersome in CFD.
 
