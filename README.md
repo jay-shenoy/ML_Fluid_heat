@@ -5,7 +5,7 @@ I took break from my learning path of using AI/ML tools in fluid dynamics.
 Restarting again in my PhD journey.
 
 From where does data come ?
-If Simulation/Numerical experiments could be LBM , traditional CFD , SPH , FEM  it is called PINNS.
+Simulation/Numerical experiments could be LBM , traditional CFD , SPH , FEM.
 
 If experiments gives you data EINNS.
 
@@ -17,12 +17,13 @@ Neural network avoids meshing which is cumbersome in CFD.
 Next question , can we incorporate physics into the data(bring some equation) which is PINNS(Physics Informed Neural Networks)
 
 Later do inverse problems with NN (since NN are inherently inverse problems since it is all about finding optimal weights with forward pass & back propogation i.e adjusting)
-The term would be error minimisation
+The term would be error/Residue minimisation
 
 We start always with 1D which can be easily understood by anyone.
 
 First do supervised learning , later do PINNS for diffusion equation and our data comes from LBM.
-These problems are called forward problems , we made big assumption that we know BC , IC. BTW , who gives us that ?
+These problems are called forward problems , we made big assumption that we know BC , IC. 
+BTW , who gives us that ?
 
 Most of problems in world are inverse problems(could be experimental data), in case of diffusion equation could be find diffusivity , find bc , find ic.
 Think of like input , output. We do not know input completely but know output.
