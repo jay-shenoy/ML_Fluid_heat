@@ -28,3 +28,6 @@ BTW , who gives us that ?
 Most of problems in world are inverse problems(could be experimental data), in case of diffusion equation could be find diffusivity , find bc , find ic.
 Think of like input , output. We do not know input completely but know output.
 These are incomplete problems
+
+We start with steady state inverse problem , find boundary condition given temperature measurements and you know the material (conductivity)
+All you need is linear regression.
